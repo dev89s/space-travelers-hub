@@ -1,6 +1,6 @@
 function Missions() {
   return (
-    <div>Rockes page</div>
+    <div>Mission page</div>
   );
 }
 

@@ -1,6 +1,6 @@
 function MyProfile() {
   return (
-    <div>Rockes page</div>
+    <div>Profile page</div>
   );
 }
 
