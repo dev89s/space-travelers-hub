@@ -1,40 +1,40 @@
 .missionTable {
-    border-collapse: collapse;
-    margin: 40px auto;
-  }
-  
-  .missionTable th {
-    text-align: left;
-    padding: 12px;
-    border: 2px solid #DEE2E6;
-  }
-  
-  .missionTable td {
-    padding: 12px;
-    border: 2px solid #DEE2E6;
-  }
-  
-  .missionTable tr:nth-child(even) {
-    background-color: #F2F2F2;
-  }
-  
-  .missionTable button {
-    min-width: 135px;
-    background-color: transparent;
-    color: #44494F;
-    border-color: #4F5358;
-    font-size: 17px;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .missionTable p {
-    min-width: 120px;
-    text-align: center;
-    font-size: 15px;
-    background: #6C757E;
-    color: #fff;
-    padding: 3px;
-    border-radius: 5px;
-  }
+  border-collapse: collapse;
+  margin: 40px auto;
+}
+
+.missionTable th {
+  text-align: left;
+  padding: 12px;
+  border: 2px solid #dee2e6;
+}
+
+.missionTable td {
+  padding: 12px;
+  border: 2px solid #dee2e6;
+}
+
+.missionTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.missionTable button {
+  min-width: 135px;
+  background-color: transparent;
+  color: #44494f;
+  border-color: #4f5358;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.missionTable p {
+  min-width: 120px;
+  text-align: center;
+  font-size: 15px;
+  background: #6c757e;
+  color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+}

@@ -1,9 +1,8 @@
-/* eslint-disable */
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { missionLoad } from '../redux/missions/missionsSlice';
 import MissionProps from './MissionsProps';
-import "../style/Mission.css"
+import '../style/Mission.css';
 
 const Missions = () => {
   const missions = useSelector((state) => state.missions);
