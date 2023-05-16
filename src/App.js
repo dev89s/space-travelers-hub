@@ -3,6 +3,7 @@ import Root from './routes/Root';
 import Rockets from './components/Rockets';
 import Missions from './components/Missions';
 import MyProfile from './components/My-Profile';
+import Dragons from './components/Dragons';
 
 function App() {
   const router = createBrowserRouter([
@@ -18,6 +19,10 @@ function App() {
         {
           path: '/missions',
           element: <Missions />,
+        },
+        {
+          path: '/dragons',
+          element: <Dragons />,
         },
         {
           path: '/my-profile',
