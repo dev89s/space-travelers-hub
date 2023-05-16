@@ -17,6 +17,9 @@ function Navbar() {
           <li>
             <NavLink to="/missions">Mission</NavLink>
           </li>
+          <li>
+            <NavLink to="/dragons">Dragons</NavLink>
+          </li>
           <div className="line" />
           <li>
             <NavLink to="/my-profile">My Profile</NavLink>
