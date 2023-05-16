@@ -1,3 +1,7 @@
+.missionContainer {
+  padding: 15px 20px;
+}
+
 .missionTable {
   border-collapse: collapse;
   margin: 40px auto;

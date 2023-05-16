@@ -15,7 +15,7 @@ const Missions = () => {
   });
 
   return (
-    <>
+    <div className="missionContainer">
       <table className="missionTable">
         <thead>
           <tr>
@@ -37,7 +37,7 @@ const Missions = () => {
           ))}
         </tbody>
       </table>
-    </>
+    </div>
   );
 };
 
