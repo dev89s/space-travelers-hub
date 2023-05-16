@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchRockets } from '../redux/rockets/rocketsSlice';
+import '../style/Rockets.css';
+import RocketCard from './RocketCard';
 
 function Rockets() {
   const { rockets } = useSelector((state) => state.rockets);
@@ -10,11 +12,10 @@ function Rockets() {
 
   const dispatch = useDispatch();
   useEffect(() => {
-    if (listState !== 'loaded') {
+    if (listState === 'empty') {
       dispatch(fetchRockets());
     }
   }, [dispatch, listState]);
-
   if (error) {
     return (
       <h2>
@@ -24,13 +25,14 @@ function Rockets() {
       </h2>
     );
   }
-
   if (isLoading) {
     return (<h2>Page is loading</h2>);
   }
   return (
-    <ul>
-      {rockets.map((rocket) => (<li key={rocket.id}>{rocket.name}</li>))}
+    <ul className="rocket-list">
+      {rockets.map((rocket) => (
+        <RocketCard key={rocket.id} rocket={rocket} />
+      ))}
     </ul>
   );
 }

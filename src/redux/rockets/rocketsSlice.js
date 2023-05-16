@@ -40,8 +40,8 @@ const rockesSlice = createSlice({
         const { payload } = action;
         const rockets = [];
         payload.forEach((item) => {
-          const { id, name, description, flicker_images } = item;
-          const rocket = { id, name, description, flicker_images };
+          const { id, name, description, flickr_images } = item;
+          const rocket = { id, name, description, flickr_images };
           rockets.push(rocket);
         })
         state.rockets = rockets;
