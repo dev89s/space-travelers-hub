@@ -1,0 +1,54 @@
+.rocket-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 15px 20px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.rocket-card {
+  display: flex;
+  gap: 17px;
+}
+
+.rocket-card img {
+  align-self: center;
+  max-width: 230px;
+}
+
+.rocket-card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rocket-card-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rocket-card-description {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.reserve-btn {
+  align-self: flex-start;
+  padding: 10px 15px;
+  margin-top: 8px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reserve-btn:hover {
+  background-color: #50a4ff;
+}
+
+.reserve-btn:active {
+  background-color: #0064cf;
+}
