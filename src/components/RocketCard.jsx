@@ -17,7 +17,11 @@ function RocketCard({ rocket }) {
       <img src={rocket.flickr_images[0]} alt="Rocket" />
       <div className="rocket-card-details">
         <h2 className="rocket-card-title">{rocket.name}</h2>
-        <p className="rocket-card-description">{rocket.description}</p>
+        <p className="rocket-card-description">
+          {rocket.reserved
+            && <span className="rocket-reserve-badge">Reserved</span>}
+          {rocket.description}
+        </p>
         {!rocket.reserved
           && (
             <button

@@ -29,6 +29,7 @@
 }
 
 .rocket-card-description {
+  line-height: 20px;
   font-size: 15px;
   font-weight: 400;
 }
@@ -47,10 +48,12 @@
 
 .reserve-btn:hover {
   background-color: #50a4ff;
+  border: 1px solid #50a4ff;
 }
 
 .reserve-btn:active {
   background-color: #0064cf;
+  border: 1px solid #0064cf;
 }
 
 .cancel-btn {
@@ -67,10 +70,23 @@
 
 .cancel-btn:hover {
   background-color: #787878;
+  border: 1px solid #787878;
   color: #fff;
 }
 
 .cancel-btn:active {
   background-color: #535353;
+  border: 1px solid #535353;
   color: #fff;
+}
+
+.rocket-reserve-badge {
+  color: #fff;
+  background-color: #18a2b8;
+  border: 1px solid #18a2b8;
+  border-radius: 5px;
+  padding: 1px 3px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-right: 10px;
 }
