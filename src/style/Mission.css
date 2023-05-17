@@ -39,6 +39,27 @@
   font-size: 15px;
   background: #6c757e;
   color: #fff;
-  padding: 3px;
+  padding: 4px;
   border-radius: 5px;
+}
+.missionTable .leavePar {
+  background: #1AA1B9;
+  color: #fff;
+}
+.missionTable button {
+  min-width: 135px;
+  background-color: transparent;
+  color: rgb(85, 85, 85);
+  border-color: rgb(85, 85, 85);
+  font-size: 17px;
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.missionTable .leave {
+  background-color: transparent;
+  color: #E55E69;
+  border-color: #E55E69;
+  cursor: pointer;
 }
