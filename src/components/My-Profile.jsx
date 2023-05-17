@@ -17,16 +17,11 @@ function MyProfile() {
         {(rockets.filter((rocket) => rocket.reserved).length > 0)
           && (
             <ul className="reserved-rocket-list">
-              {rockets.filter((rocket) => rocket.reserved).map((rocket) => {
-                if (rocket.reserved) {
-                  return (
-                    <li key={rocket.id} className="profile-rocket-item">
-                      {rocket.name}
-                    </li>
-                  );
-                }
-                return null;
-              })}
+              {rockets.filter((rocket) => rocket.reserved).map((rocket) => (
+                <li key={rocket.id} className="profile-rocket-item">
+                  {rocket.name}
+                </li>
+              ))}
             </ul>
           )}
       </section>
