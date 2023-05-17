@@ -16,6 +16,9 @@ function Rockets() {
       dispatch(fetchRockets());
     }
   }, [dispatch, listState]);
+
+  localStorage.setItem('rockets', JSON.stringify(rockets));
+
   if (error) {
     return (
       <h2>

@@ -29,6 +29,7 @@
 }
 
 .rocket-card-description {
+  line-height: 20px;
   font-size: 15px;
   font-weight: 400;
 }
@@ -38,17 +39,54 @@
   padding: 10px 15px;
   margin-top: 8px;
   background-color: #007bff;
+  border: 1px solid #007bff;
   color: #fff;
   font-size: 16px;
-  border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .reserve-btn:hover {
   background-color: #50a4ff;
+  border: 1px solid #50a4ff;
 }
 
 .reserve-btn:active {
   background-color: #0064cf;
+  border: 1px solid #0064cf;
+}
+
+.cancel-btn {
+  align-self: flex-start;
+  padding: 10px 15px;
+  margin-top: 8px;
+  background-color: #fff;
+  color: #787878;
+  border: 1px solid #787878;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background-color: #787878;
+  border: 1px solid #787878;
+  color: #fff;
+}
+
+.cancel-btn:active {
+  background-color: #535353;
+  border: 1px solid #535353;
+  color: #fff;
+}
+
+.rocket-reserve-badge {
+  color: #fff;
+  background-color: #18a2b8;
+  border: 1px solid #18a2b8;
+  border-radius: 5px;
+  padding: 1px 3px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-right: 10px;
 }
