@@ -29,8 +29,9 @@
   border-color: #4f5358;
   font-size: 17px;
   cursor: pointer;
-  padding: 10px;
   border-radius: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .missionTable p {
@@ -39,6 +40,18 @@
   font-size: 15px;
   background: #6c757e;
   color: #fff;
-  padding: 3px;
+  padding: 4px;
   border-radius: 5px;
+}
+
+.missionTable .leavePar {
+  background: #1aa1b9;
+  color: #fff;
+}
+
+.missionTable .leave {
+  background-color: transparent;
+  color: #e55e69;
+  border-color: #e55e69;
+  cursor: pointer;
 }
