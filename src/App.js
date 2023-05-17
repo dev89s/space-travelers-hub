@@ -1,9 +1,13 @@
-import { Navigate, RouterProvider, createBrowserRouter } from 'react-router-dom';
+import {
+  Navigate,
+  RouterProvider,
+  createBrowserRouter,
+} from 'react-router-dom';
 import Root from './routes/Root';
 import Rockets from './components/Rockets';
 import Missions from './components/Missions';
 import MyProfile from './components/My-Profile';
-import Dragons from './components/Dragons';
+import DragonsList from './components/DragonsList';
 
 function App() {
   const router = createBrowserRouter([
@@ -22,7 +26,7 @@ function App() {
         },
         {
           path: '/dragons',
-          element: <Dragons />,
+          element: <DragonsList />,
         },
         {
           path: '/my-profile',
