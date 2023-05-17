@@ -1,19 +1,21 @@
-import PropTypes from "prop-types";
-import style from "../style/Dragon.module.css";
+import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
+import style from '../style/Dragon.module.css';
 import {
   reserverDragon,
   cancelReservation,
-} from "../redux/dragons/dragonsSlice";
-import { useDispatch } from "react-redux";
+} from '../redux/dragons/dragonsSlice';
 
-const Dragon = ({ id, imgURL, name, description, reserved }) => {
+const Dragon = ({
+  id, imgURL, name, description, reserved,
+}) => {
   const dispatch = useDispatch();
   return (
-    <div className={style["list-item"]}>
-      <div className={style["img-container"]}>
-        <img className={style["dragon-img"]} src={imgURL} alt={name} />
+    <div className={style['list-item']}>
+      <div className={style['img-container']}>
+        <img className={style['dragon-img']} src={imgURL} alt={name} />
       </div>
-      <div className={style["item-info"]}>
+      <div className={style['item-info']}>
         <h3>{name}</h3>
 
         <p>
@@ -23,7 +25,7 @@ const Dragon = ({ id, imgURL, name, description, reserved }) => {
         {!reserved ? (
           <button
             type="button"
-            className={style["reserve-btn"]}
+            className={style['reserve-btn']}
             onClick={() => dispatch(reserverDragon(id))}
           >
             Reserve Dragon
@@ -31,7 +33,7 @@ const Dragon = ({ id, imgURL, name, description, reserved }) => {
         ) : (
           <button
             type="button"
-            className={style["cancel-reseve"]}
+            className={style['cancel-reseve']}
             onClick={() => dispatch(cancelReservation(id))}
           >
             Cancel Reservation
@@ -44,7 +46,9 @@ const Dragon = ({ id, imgURL, name, description, reserved }) => {
 
 Dragon.propTypes = {
   imgURL: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  reserved: PropTypes.bool.isRequired,
 };
 export default Dragon;

@@ -1,19 +1,21 @@
-import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchDragons, dragonSelector } from "../redux/dragons/dragonsSlice";
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchDragons, dragonSelector } from '../redux/dragons/dragonsSlice';
 
-import style from "../style/DragonList.module.css";
-import Dragon from "./Dragon";
+import style from '../style/DragonList.module.css';
+import Dragon from './Dragon';
 
 function DragonsList() {
   const dispatch = useDispatch();
   const { dragons, listState } = useSelector(dragonSelector);
   useEffect(() => {
-    listState === "idle" && dispatch(fetchDragons());
+    if (listState === 'idle') {
+      dispatch(fetchDragons());
+    }
   }, [dispatch]);
 
   return (
-    <div className={style["list-container"]}>
+    <div className={style['list-container']}>
       {dragons.map((dragon) => (
         <Dragon
           key={dragon.id}
