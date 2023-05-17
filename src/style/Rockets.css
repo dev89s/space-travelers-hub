@@ -59,7 +59,7 @@
   margin-top: 8px;
   background-color: #fff;
   color: #787878;
-  border: 1px solid #787878;
+  border: none;
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
@@ -67,6 +67,10 @@
 
 .cancel-btn:hover {
   background-color: #787878;
-  border-color: #787878;
+  color: #fff;
+}
+
+.cancel-btn:active {
+  background-color: #535353;
   color: #fff;
 }

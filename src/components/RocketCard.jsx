@@ -35,7 +35,7 @@ function RocketCard({ rocket }) {
               className="cancel-btn"
               onClick={cancel}
             >
-              Cancel Rocket
+              Cancel Reservation
             </button>
           )}
       </div>
