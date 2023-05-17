@@ -6,10 +6,10 @@ function Navbar() {
   return (
     <div className="nav-container">
       <div className="navbar">
-        <div className="logo">
+        <NavLink className="logo" to="/">
           <img className="logo-image" src={logo} alt="logo" />
           <h1 className="title">Space Traveler&apos;s Hub</h1>
-        </div>
+        </NavLink>
         <ul className="nav-list">
           <li>
             <NavLink to="/rockets">Rockets</NavLink>
