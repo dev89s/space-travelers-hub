@@ -1,26 +1,26 @@
-import { useEffect } from "react";
-import { fetchDragons } from "../redux/dragons/dragonsSlice";
-import { useDispatch, useSelector } from "react-redux";
-import { dragonSelector } from "../redux/dragons/dragonsSlice";
-import style from "../style/DragonList.module.css";
-import Dragon from "./Dragon";
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchDragons, dragonSelector } from '../redux/dragons/dragonsSlice';
+
+import style from '../style/DragonList.module.css';
+import Dragon from './Dragon';
 
 function DragonsList() {
   const dispatch = useDispatch();
-  const { dragons, error } = useSelector(dragonSelector);
+  const { dragons } = useSelector(dragonSelector);
 
   useEffect(() => {
     dispatch(fetchDragons());
-  }, []);
+  }, [dispatch]);
 
   return (
-    <div className={style["list-container"]}>
-      {dragons.map(({ id, flickr_images, name, description }) => (
+    <div className={style['list-container']}>
+      {dragons.map((dragon) => (
         <Dragon
-          key={id}
-          imgURL={flickr_images[1]}
-          name={name}
-          description={description}
+          key={dragon.id}
+          imgURL={dragon.flickr_images[1]}
+          name={dragon.name}
+          description={dragon.description}
         />
       ))}
     </div>

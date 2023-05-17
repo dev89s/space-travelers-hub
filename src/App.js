@@ -2,34 +2,34 @@ import {
   Navigate,
   RouterProvider,
   createBrowserRouter,
-} from "react-router-dom";
-import Root from "./routes/Root";
-import Rockets from "./components/Rockets";
-import Missions from "./components/Missions";
-import MyProfile from "./components/My-Profile";
-import DragonsList from "./components/DragonsList";
+} from 'react-router-dom';
+import Root from './routes/Root';
+import Rockets from './components/Rockets';
+import Missions from './components/Missions';
+import MyProfile from './components/My-Profile';
+import DragonsList from './components/DragonsList';
 
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: '/',
       element: <Root />,
       children: [
         { index: true, element: <Navigate to="/rockets" /> },
         {
-          path: "/rockets",
+          path: '/rockets',
           element: <Rockets />,
         },
         {
-          path: "/missions",
+          path: '/missions',
           element: <Missions />,
         },
         {
-          path: "/dragons",
+          path: '/dragons',
           element: <DragonsList />,
         },
         {
-          path: "/my-profile",
+          path: '/my-profile',
           element: <MyProfile />,
         },
       ],
