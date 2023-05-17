@@ -38,9 +38,9 @@
   padding: 10px 15px;
   margin-top: 8px;
   background-color: #007bff;
+  border: 1px solid #007bff;
   color: #fff;
   font-size: 16px;
-  border: none;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -59,7 +59,7 @@
   margin-top: 8px;
   background-color: #fff;
   color: #787878;
-  border: none;
+  border: 1px solid #787878;
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
