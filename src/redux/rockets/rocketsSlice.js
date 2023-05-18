@@ -27,7 +27,7 @@ const initialState = {
   error: false,
 };
 
-const rockesSlice = createSlice({
+const rocketsSlice = createSlice({
   name: 'rockets',
   initialState: initialState,
   reducers: {
@@ -80,5 +80,5 @@ const rockesSlice = createSlice({
   }
 });
 
-export const { reserveRocket, cancelRocket } = rockesSlice.actions;
-export default rockesSlice.reducer;
+export const { reserveRocket, cancelRocket } = rocketsSlice.actions;
+export default rocketsSlice.reducer;
