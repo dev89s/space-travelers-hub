@@ -16,10 +16,14 @@ function RocketCard({ rocket }) {
     <li className="rocket-card">
       <img src={rocket.flickr_images[0]} alt="Rocket" />
       <div className="rocket-card-details">
-        <h2 className="rocket-card-title">{rocket.name}</h2>
+        <h2 className="rocket-card-title" data-testid="rocket-header">{rocket.name}</h2>
         <p className="rocket-card-description">
           {rocket.reserved
-            && <span className="rocket-reserve-badge">Reserved</span>}
+            && (
+            <span className="rocket-reserve-badge" data-testid="reserved-badge">
+              Reserved
+            </span>
+            )}
           {rocket.description}
         </p>
         {!rocket.reserved
@@ -28,6 +32,7 @@ function RocketCard({ rocket }) {
               type="button"
               className="reserve-btn"
               onClick={reserve}
+              data-testid="reserve-button"
             >
               Reserve Rocket
             </button>
@@ -38,6 +43,7 @@ function RocketCard({ rocket }) {
               type="button"
               className="cancel-btn"
               onClick={cancel}
+              data-testid="cancel-button"
             >
               Cancel Reservation
             </button>

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test page renders 1`] = `
+<li
+  className="rocket-card"
+>
+  <img
+    alt="Rocket"
+    src="https://farm5.staticflickr.com/4599/38583829295_581f34dd84_b.jpg"
+  />
+  <div
+    className="rocket-card-details"
+  >
+    <h2
+      className="rocket-card-title"
+      data-testid="rocket-header"
+    >
+      Falcon Heavy
+    </h2>
+    <p
+      className="rocket-card-description"
+    >
+      <span
+        className="rocket-reserve-badge"
+        data-testid="reserved-badge"
+      >
+        Reserved
+      </span>
+      Falcon Heavy Description
+    </p>
+    <button
+      className="cancel-btn"
+      data-testid="cancel-button"
+      onClick={[Function]}
+      type="button"
+    >
+      Cancel Reservation
+    </button>
+  </div>
+</li>
+`;
