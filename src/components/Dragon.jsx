@@ -43,12 +43,15 @@ const Dragon = ({
     </div>
   );
 };
+Dragon.defaultProps = {
+  reserved: false,
+};
 
 Dragon.propTypes = {
   imgURL: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  reserved: PropTypes.bool.isRequired,
+  reserved: PropTypes.bool,
 };
 export default Dragon;

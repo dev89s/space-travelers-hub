@@ -55,36 +55,3 @@
   border-color: #e55e69;
   cursor: pointer;
 }
-
-/* ---- Reserved Mission Section ---- */
-
-.profile-mission-section {
-  width: 31%;
-}
-
-.no-reserved-mission {
-  padding: 25px;
-  font-weight: 400;
-  border: 1px solid #dfdfdf;
-  border-radius: 5px;
-}
-
-.profile-mission-header {
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-
-.reserved-mission-list {
-  list-style: none;
-  border-radius: 5px;
-  border: 1px solid #dfdfdf;
-}
-
-.profile-mission-item {
-  padding: 25px;
-  border-bottom: 1px solid #dfdfdf;
-}
-
-.profile-mission-item:last-child {
-  border-bottom: none;
-}
