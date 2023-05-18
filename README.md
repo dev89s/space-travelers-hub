@@ -139,6 +139,12 @@ Then you can push the project into that repository and if you go to the reposito
 - GitHub: [@dev89s](https://github.com/dev89s)
 - LinkedIn: [@sasan-moshirabadi-30a77025a](https://www.linkedin.com/in/sasan-moshirabadi-30a77025a/)
 
+👤 **Ouail Laarabi**
+
+- GitHub: [@Ouail-01](https://github.com/Ouail-01)
+- Twitter: [@Ouail_laarabi](https://twitter.com/Ouail_Laarabi)
+- LinkedIn: [Ouail Laarabi](https://www.linkedin.com/in/ouail-laarabi-53203b250/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
