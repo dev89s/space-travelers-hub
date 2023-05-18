@@ -1,5 +1,6 @@
 import '../style/Profile.css';
 import '../style/Rockets.css';
+import '../style/Mission.css';
 import { useSelector } from 'react-redux';
 
 function MyProfile() {
