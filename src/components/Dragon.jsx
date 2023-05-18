@@ -19,7 +19,7 @@ const Dragon = ({
         <h3>{name}</h3>
 
         <p>
-          {reserved && <span>Reserved </span>}
+          {reserved && <span className={style['reserve-badge']}>Reserved</span>}
           {description}
         </p>
         {!reserved ? (

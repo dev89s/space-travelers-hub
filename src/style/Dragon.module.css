@@ -26,6 +26,17 @@
   font-weight: 600;
 }
 
+.reserve-badge {
+  background-color: #18a2b8;
+  border-radius: 5px;
+  padding: 0;
+  padding: 1px 3px 3px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
 .reserve-btn {
   background-color: #007bff;
   color: #fff;
