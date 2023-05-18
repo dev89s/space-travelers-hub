@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshot test of profile page snapshot test for my profile page 1`] = `
+exports[`snapshot test for my profile page 1`] = `
 <div
   className="profile-page"
 >
