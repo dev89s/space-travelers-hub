@@ -5,8 +5,8 @@
 
 .img-container {
   display: flex;
-  max-width: 200px;
-  min-height: 150px;
+  max-width: 210px;
+  min-height: 162px;
 }
 
 .dragon-img {
@@ -26,13 +26,35 @@
   font-weight: 600;
 }
 
-.item-info button {
+.reserve-badge {
+  background-color: #18a2b8;
+  border-radius: 5px;
+  padding: 0;
+  padding: 1px 3px 3px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+.reserve-btn {
   background-color: #007bff;
   color: #fff;
   border: none;
-  font-size: 13px;
   margin-top: 0.2rem;
-  font-weight: 300;
+  font-size: 16px;
   padding: 0.6rem 0.5rem;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-reseve {
+  background-color: #fff;
+  color: #6b6767;
+  border: 1px solid #6b6767;
+  font-size: 16px;
+  margin-top: 0.2rem;
+  padding: 0.6rem 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
 }

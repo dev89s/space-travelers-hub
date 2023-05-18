@@ -7,10 +7,11 @@ import Dragon from './Dragon';
 
 function DragonsList() {
   const dispatch = useDispatch();
-  const { dragons } = useSelector(dragonSelector);
-
+  const { dragons, listState } = useSelector(dragonSelector);
   useEffect(() => {
-    dispatch(fetchDragons());
+    if (listState === 'idle') {
+      dispatch(fetchDragons());
+    }
   }, [dispatch]);
 
   return (
@@ -18,6 +19,8 @@ function DragonsList() {
       {dragons.map((dragon) => (
         <Dragon
           key={dragon.id}
+          id={dragon.id}
+          reserved={dragon.reserved}
           imgURL={dragon.flickr_images[1]}
           name={dragon.name}
           description={dragon.description}
