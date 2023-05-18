@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mission component test Check if the missions section are available 1`] = `
+<div
+  className="missionContainer"
+>
+  <table
+    className="missionTable"
+  >
+    <thead>
+      <tr>
+        <th>
+          Mission
+        </th>
+        <th>
+          Description
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+           
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;
