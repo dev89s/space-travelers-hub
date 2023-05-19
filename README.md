@@ -22,7 +22,8 @@
 - [💻 Getting Started ](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Usage](#usage)
+  - [Install](#install)
+  - [Test](#test)
   - [Deployment](#deployment)
 - [👥 Authors ](#authors)
 - [🔭 Future Features ](#future-features)
@@ -109,9 +110,16 @@ In order to reproduce the Math-Magicians and be able to make changes for your ow
 
   1. Make a new directory and go inside the directory using cd command in terminal
   2. Use "git" to clone this repository into your local drive:
-      >```$ git clone https://github.com/dev89s/space-travelers-hub.git```
-  3. Run the command to install all necessary dependancies:
-      >``` npm install ```
+  
+```snippet
+  git clone https://github.com/dev89s/space-travelers-hub.git
+```
+  
+### Install
+
+```snippet
+  npm install
+```
 
 ### Usage
 
@@ -121,6 +129,12 @@ In order to reproduce the Math-Magicians and be able to make changes for your ow
   - The `index.html` file in `dist` folder is the output file that you want to open in the browser.
   - To add tests or examine different tests that are alreadt available go to:
     >``` [root_dir]/src/modules/[modulename].test.js ```
+
+### Test
+
+```snippet
+  npm test
+```
 
 ### Deployment
 
