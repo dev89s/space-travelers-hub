@@ -1,0 +1,38 @@
+.profile-page {
+  padding: 15px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.column {
+  flex: 1;
+  flex-basis: 250px;
+}
+
+.no-reserved {
+  padding: 25px;
+  font-weight: 400;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+}
+
+.profile-header {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.reserved-list {
+  list-style: none;
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+}
+
+.reserved-item {
+  padding: 12px 15px 25px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.reserved-item:last-child {
+  border-bottom: none;
+}

@@ -1,0 +1,53 @@
+.nav-container {
+  width: 94%;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+}
+
+.logo-image {
+  height: 70px;
+}
+
+.title {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #0a7efe;
+}
+
+.nav-list li a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.line {
+  background: rgb(70, 70, 70);
+  border: 1px solid #aaa;
+  height: 1.5rem;
+  width: 0.15rem;
+}
