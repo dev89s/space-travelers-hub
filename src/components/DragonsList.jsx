@@ -12,7 +12,7 @@ function DragonsList() {
     if (listState === 'idle') {
       dispatch(fetchDragons());
     }
-  }, [dispatch]);
+  }, [dispatch, listState]);
 
   return (
     <div className={style['list-container']}>
