@@ -83,7 +83,7 @@
 
 ## 🚀 Live Demo <a id="live-demo"></a>
 
-- An implementation of this portfolio is live on [Render.com website](https://space-travelers-hub-slru.onrender.com)
+- An implementation of this portfolio is live on [Render.com website](https://space-travelers-hub-rw29.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
