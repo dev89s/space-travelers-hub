@@ -15,12 +15,12 @@
     "react-scripts": "5.0.1",
     "react-test-renderer": "^18.2.0",
     "redux-logger": "^3.0.6",
-    "web-vitals": "^2.1.4"
+    "redux-mock-store": "^1.5.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --verbose",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
