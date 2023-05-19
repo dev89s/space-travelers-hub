@@ -82,7 +82,7 @@
 
 ## 🚀 Live Demo <a id="live-demo"></a>
 
-- An implementation of this portfolio is live on [Render.com website](#) (to be updated)
+- An implementation of this portfolio is live on [Render.com website](https://space-travelers-hub-slru.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,6 +144,11 @@ Then you can push the project into that repository and if you go to the reposito
 - GitHub: [@Ouail-01](https://github.com/Ouail-01)
 - Twitter: [@Ouail_laarabi](https://twitter.com/Ouail_Laarabi)
 - LinkedIn: [Ouail Laarabi](https://www.linkedin.com/in/ouail-laarabi-53203b250/)
+
+👤 **Abdurahim Miftah**
+
+- GitHub: [@UbdaNam](https://github.com/UbdaNam)
+- LinkedIn: [Abdurahim .M](https://www.linkedin.com/in/abdurahim-miftah/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
